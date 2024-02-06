@@ -13,7 +13,7 @@ Work experience
 ======
 * 2021 - Present: ML/Data Scientist
   * National Institutes of Health (NIH) 
-  * Areas of Expertise: Large Language Models, Natural Language Processing, Transfer Learning
+  * Areas of Expertise: Large Language Models, Natural Language Processing, Transfer Learning, Representation Learning
 
 * Summer 2021: Graduate Data Science Intern
   * National Institutes of Health, NCBI
