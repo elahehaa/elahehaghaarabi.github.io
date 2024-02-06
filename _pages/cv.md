@@ -9,32 +9,41 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* 2021 - Present: ML/Data Scientist
+  * National Institutes of Health (NIH) 
+  * Areas of Expertise: Large Language Models, Natural Language Processing, Transfer Learning
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Summer 2021: Graduate Data Science Intern
+  * National Institutes of Health, NCBI
+  * Areas of Expertise: Natural Language Processing, Text Similarity
+ 
+* 2013 - 2017: Data Analyst
+  * E-One Moli Energy
+  * Areas of Expertise: Statistical Analysis, Data Visualization, Design of Experiments (DOE)
+ 
+* 2011 - 2013: Graduate Research Assistant
+  * The university of British Columbia - ACIS Lab 
+    
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Machine Learning
+* Natural Language Processing
+* Deep Learning
+  * Transfer Learning
+  * PyTorch, TensorFlow, Transformers
+* Ranking
+* Python, Java, C++, R, Matlab
+
+Education
+======
+* B.Sc. in Engineering, Tehran Polytechnique, 2010
+* M.Sc. in Engineering, The University of British Columbia, 2013
+  * Dissertation: Soft Computing Approaches for Drinking Water Quality Assessment 
+* M.Sc in Computer Science, Towson University, 2021
+  * Selected Courses: Natural Language Processing, Advanced Machine Learning, Data Structure and Algorithm, Network Analysis
 
 Publications
 ======
@@ -42,18 +51,10 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
+Talks and Presentations
 ======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
+  * Elaheh Aghaarabi, Qingyu Chen, Zhiyong Lu, "Natural Language Processing Techniques to Capture Sentence Similarity", NIH Summer Presentation Week, 2021
+  * Elaheh Aghaarabi, "Identifying Prevention related NIH Projects using NLP techniques and Transfer Learning", ODP/NIAID Meeting, 2022
+  * Elaheh A, Farzad A, Rehan S, Mina H, Homayoun N, Manual J R, "A Fuzzy Rule-based Approach for Water Quality Assessment", IFSA World Congress and NAFIPS Annual Meeting (IFSA/NAFIPS), Publisher: IEEE, 2013
+
   
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
