@@ -1,7 +1,7 @@
 ---
 title: 'Vector Databases'
 date: 2024-02-08
-permalink: /posts/vectordb
+permalink: /posts/vectordb/
 tags:
   - Generative AI
   - Vector Databases
