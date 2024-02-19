@@ -37,7 +37,7 @@ Conference: Conference on Empirical Methods in Natural Language Processing (EMNL
 Year: 2018  
 Paper Link: [ELMo](https://arxiv.org/abs/1802.05365)
 
-ELMo varitions trained for biomedical text analysis include:
+ELMo varitions trained for biomedical text analysis include.
 
 Title: Probing Biomedical Embeddings from Language Models  
 Authors: Qiao Jin, Bhuwan Dhingra, William W. Cohen, Xinghua Lu  
