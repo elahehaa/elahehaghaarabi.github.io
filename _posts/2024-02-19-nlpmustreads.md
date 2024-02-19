@@ -25,7 +25,7 @@ Mikolov, T., Sutskever, I., Chen, K., Corrado, G. S., & Dean, J. (2013).
 [Distributed Representations of Words and Phrases and their Compositionality](https://arxiv.org/abs/1310.4546).
 In Advances in neural information processing systems (NeurIPS), 26.
 
-## ELMO
+## ELMo
 
 The "ELMo" (Embeddings from Language Models) paper is titled "Deep contextualized word representations" and was authored by researchers at Allen Institute for AI. The paper was presented at the Conference on Empirical Methods in Natural Language Processing (EMNLP) in 2018.
 
