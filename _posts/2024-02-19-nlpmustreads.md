@@ -38,8 +38,9 @@ Year: 2018
 Paper Link: [ELMo](https://arxiv.org/abs/1802.05365)
 
 ELMo varitions trained for biomedical text analysis include:
-Title: Probing Biomedical Embeddings from Language Models
-Authors: Qiao Jin, Bhuwan Dhingra, William W. Cohen, Xinghua Lu
-Code: [BioELMo](https://www.catalyzex.com/paper/arxiv:1904.02181/code)
-Year: 2019
+
+Title: Probing Biomedical Embeddings from Language Models  
+Authors: Qiao Jin, Bhuwan Dhingra, William W. Cohen, Xinghua Lu  
+Code: [BioELMo](https://www.catalyzex.com/paper/arxiv:1904.02181/code)  
+Year: 2019  
 Paper Link: [BioELMo](https://arxiv.org/abs/1904.02181)
