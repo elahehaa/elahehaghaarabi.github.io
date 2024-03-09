@@ -1,0 +1,29 @@
+---
+title: 'Comparing different language models in tokenizing biomedical text'
+date: 2024-03-09
+permalink: /posts/2024/03/c/
+tags:
+  - Transfornmer-based Language Models
+  - Tokehnizer
+  - Bio LLMs
+
+
+---
+
+Let's play with a tool to compare different models' tokenizers to split the text published in biomedical data.
+
+Text:
+
+The trial is a 12-week single-arm pilot study. Twenty female breast cancer survivors will engage in a supervised moderate intensity walking intervention in small groups in a nature reserve for 50 minutes three times per week. Data will be collected at baseline and end of study, and include assessment of inflammatory cytokines and anti-inflammatory myokines (TNF-α, IL-1ß, IL-6, CRP, TGF-ß, IL-10, IL-13), as well as ageing (DNA methylation, ageing genes) biomarkers; surveys (Patient-Reported Outcomes Measurement Information System-29, Functional Assessment of Cancer Therapy-General, Post-Traumatic Growth Inventory); and fitness assessments (6 min Walk Test, Grip-Strength, One Repetition-Maximum Leg Press). Participants will also complete weekly surveys assessing social support and participate in an exit interview. This is an important first step for future research on the influence of exercise environment on cancer survivor PA outcomes.
+
+
+<!-- Headings are cool
+======
+-->
+
+<!-- You can have many headings
+======
+-->
+
+<!-- Aren't headings cool?
+------ -->
