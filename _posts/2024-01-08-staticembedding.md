@@ -19,6 +19,7 @@ Static embeddings are typically created using shallow neural networks such as sk
 This method was introduced by Mikolov et al. in their 2013 paper titled 'Efficient Estimation of Word Representations in Vector Space.' Word representations in the form of vectors can be learned through unsupervised learning using a shallow neural network. In the skip-gram architecture, the model predicts context words based on a target word within a specified window size. CBOW (Continuous Bag of Words) is another architecture used in Word2Vec, which predicts the target word based on the context words surrounding it.
 
 [BioWordVec](https://github.com/ncbi-nlp/BioSentVec/blob/master/README.md) is a model trained using PubMed and MIMIC-III data by researchers at NIH (National Institutes of Health). It is specifically pre-trained for use in the biomedical domain.
+![Screenshot from 2024-03-18 15-30-21](https://github.com/elahehaghaarabi/elahehaghaarabi.github.io/assets/30157012/9eaa2ec7-1d6f-442e-a1d9-347fb1f3996d)
 
 ## FastText
 
@@ -29,4 +30,4 @@ FastText is an extension of the Word2Vec model. By incorporating n-grams into th
 'GloVe: Global Vectors for Word Representation' introduced by Jeffrey Pennington, Richard Socher, and Christopher D. Manning in 2014, presents another approach to representing words in a vector space, capturing both syntactic and semantic aspects of text. The algorithm learns word embeddings by considering the global co-occurrence statistics of words in a corpus. It constructs a co-occurrence matrix, where each cell denotes the frequency of a word appearing in the context of another word. Subsequently, the algorithm factorizes this matrix to derive low-dimensional vector representations for words.
 
 ![Screenshot from 2024-03-18 15-29-45](https://github.com/elahehaghaarabi/elahehaghaarabi.github.io/assets/30157012/9f3e5047-aade-47ec-a27a-c317f8b440b6)
-Copy code
+
