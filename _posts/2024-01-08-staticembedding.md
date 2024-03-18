@@ -1,5 +1,5 @@
 ---
-title: 'Static Embedding Techniques'
+title: 'Static Word Embedding Techniques'
 date: 2024-01-08
 permalink: /posts/2024/01/s/
 tags:
