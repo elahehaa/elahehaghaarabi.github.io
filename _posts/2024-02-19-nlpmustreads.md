@@ -44,3 +44,23 @@ Authors: Qiao Jin, Bhuwan Dhingra, William W. Cohen, Xinghua Lu
 Code: [BioELMo](https://www.catalyzex.com/paper/arxiv:1904.02181/code)  
 Year: 2019  
 Paper Link: [BioELMo](https://arxiv.org/abs/1904.02181)
+
+![image](https://github.com/elahehaghaarabi/elahehaghaarabi.github.io/assets/30157012/89461d13-30fc-4af8-a1cd-507ce6f87904)
+
+
+## Attention is All You Need
+
+The "Attention is All You Need" paper revolutionized neural network architectures, particularly in the field of natural language processing. The key contribution of the paper was the proposal of the Transformer architecture, which relies on attention mechanisms for processing input data and performing various tasks, including machine translation, text summarization, and language modeling. Unlike traditional recurrent neural networks (RNNs) and convolutional neural networks (CNNs), which have sequential or convolutional structures, the Transformer architecture enables parallel computation and modeling of long-range dependencies.
+
+The core component of the Transformer architecture is the self-attention mechanism, which allows the model to weigh the importance of different input tokens when generating output tokens. By attending to relevant parts of the input sequence, the model can effectively capture contextual information and dependencies, leading to improved performance on complex NLP tasks.
+
+
+- **Title:** Attention is All You Need
+- **Authors:** Vaswani, Ashish, et al.
+- **Conference:** Neural Information Processing Systems (NIPS)
+- **Year:** 2017
+- **Paper Link:** [Attention is All You Need](https://arxiv.org/abs/1706.03762)
+![image](https://github.com/elahehaghaarabi/elahehaghaarabi.github.io/assets/30157012/75135853-31f9-4d83-8654-9e5d5b290553)
+
+  
+
