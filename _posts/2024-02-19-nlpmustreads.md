@@ -31,19 +31,18 @@ The "ELMo" (Embeddings from Language Models) paper is titled "Deep contextualize
 
 The main contribution of ELMo to the field of natural language processing (NLP) was the introduction of contextualized word representations. Prior to ELMo, traditional word embeddings methods, such as word2vec and GloVe, assigned a fixed vector to each word, regardless of its context within a sentence. ELMo addressed this limitation by providing embeddings that take into account the surrounding words and their relationships, resulting in context-dependent word representations.
 
-Title: Deep contextualized word representations  
-Authors: Matthew E. Peters, Mark Neumann, Mohit Iyyer, Matt Gardner, Christopher Clark, Kenton Lee, Luke Zettlemoyer  
-Conference: Conference on Empirical Methods in Natural Language Processing (EMNLP)  
-Year: 2018  
-Paper Link: [ELMo](https://arxiv.org/abs/1802.05365)
+- **Title:** Deep contextualized word representations
+- **Authors:** Matthew E. Peters, Mark Neumann, Mohit Iyyer, Matt Gardner, Christopher Clark, Kenton Lee, Luke Zettlemoyer
+- **Conference:** Conference on Empirical Methods in Natural Language Processing (EMNLP)
+- **Year:** 2018
+- **Paper Link:** [ELMo](https://arxiv.org/abs/1802.05365)
 
-ELMo varitions trained for biomedical text analysis include.
+ELMo varitions trained for biomedical text analysis include;
 
-Title: Probing Biomedical Embeddings from Language Models  
-Authors: Qiao Jin, Bhuwan Dhingra, William W. Cohen, Xinghua Lu  
-Code: [BioELMo](https://www.catalyzex.com/paper/arxiv:1904.02181/code)  
-Year: 2019  
-Paper Link: [BioELMo](https://arxiv.org/abs/1904.02181)
+- **Title:** Probing Biomedical Embeddings from Language Models
+- **Authors:** Qiao Jin, Bhuwan Dhingra, William W. Cohen, Xinghua Lu 
+- **Year:** 2018
+- **Paper Link:** [BioELMo](https://arxiv.org/abs/1904.02181)
 
 ![image](https://github.com/elahehaghaarabi/elahehaghaarabi.github.io/assets/30157012/89461d13-30fc-4af8-a1cd-507ce6f87904)
 
