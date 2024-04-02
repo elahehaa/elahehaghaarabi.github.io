@@ -22,7 +22,13 @@ To implement the algorithm, the following steps are required:
   * Iteratively, find pairs of tokens with higher occurrence and merge them into a single token, appending them to our vocabulary.
 
 ## WordPiece
+WordPiece is a variant of the BPE algorithm, notably employed in the pre-training of BERT and several of its derivatives. While similar to BPE, WordPiece differs in its approach to token selection. Instead of relying solely on frequency, it calculates the ratio of a token's occurrence to that of its sub-tokens. The steps are as follows;
+* Generating character tokens.
+* Calculating the likelihood of occurrence for each pair.
+* Selecting the pair with the maximum likelihood and merging tokens, adding it to the vocabulary.
+* Repeating steps 2 and 3 until a pre-set vocabulary size is reached or the likelihood falls below a threshold.
 
 
 ## SentencePiece
+
 
