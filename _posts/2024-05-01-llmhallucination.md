@@ -18,11 +18,11 @@ Language models often produce irrelevant, non-factual, and synthetic answers whe
 
 To address language model hallucination in a sensitive context like medical question answering, we designed a platform to guide the model toward providing more relevant and accurate answers.
 
-## Building a Knowledge Base
+### Building a Knowledge Base
 
 BlueBERT is a BERT model pre-trained on PubMed abstracts and clinical notes, combining both biomedical and clinical domain knowledge. The pre-trained model is used to generate embeddings from the titles and abstracts of pre-selected PubMed publications. This knowledge is stored and indexed in a vector database, Pinecone, which retrieves data based on the top-k most similar documents. The plan is to enrich the knowledge base with clinical notes in the future.
 
-## Query Expansion
+### Query Expansion
 
 Retrieval-Augmented Generation (RAG) is used as a query expansion technique. When a user asks a question (query), the same language model (BlueBERT) that generated embeddings for the knowledge base is used to generate an embedding for the query.
 The query embedding is then used to retrieve the top-k related documents from the knowledge base, which is typically a vector database (Pinecone) that stores the document embeddings and allows efficient nearest neighbor search based on cosine similarity.
@@ -35,7 +35,6 @@ A prompt is designed to expand the query and guide the generative language model
 
 
 
--->
 
 <!-- You can have many headings
 ======
