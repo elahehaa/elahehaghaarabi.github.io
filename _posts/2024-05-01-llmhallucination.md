@@ -34,7 +34,7 @@ A prompt is designed to expand the query and guide the generative language model
 
 
 
-======
+
 -->
 
 <!-- You can have many headings
