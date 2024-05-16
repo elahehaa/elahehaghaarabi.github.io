@@ -12,7 +12,7 @@ tags:
 
 
 
-## Semantic Search and Question Answering System
+A semantic search and question answering system is designed to address language model hallucination in medical domain.
 
 Language models often produce irrelevant, non-factual, and synthetic answers when responding to user queries. This issue, known as hallucination in the field of GenAI, becomes particularly critical when applied in the healthcare domain. To mitigate this problem, we employ the Retrieval Augmented Generation (RAG) technique to guide the model in generating relevant and accurate responses.
 
