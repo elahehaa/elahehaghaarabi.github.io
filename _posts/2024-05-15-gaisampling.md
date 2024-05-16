@@ -1,5 +1,5 @@
 ---
-title: 'Sampling Techniques in Generative Language Models'
+title: 'Sampling Techniques for Generative Language Models'
 date: 2024-05-15
 permalink: /posts/2024/05/generative-language-models-sampling/
 tags:
