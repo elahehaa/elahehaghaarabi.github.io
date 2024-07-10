@@ -29,6 +29,9 @@ Retrieval-Augmented Generation (RAG) is used as a query expansion technique. Whe
 The query embedding is then used to retrieve the top-k related documents from the knowledge base, which is typically a vector database (Pinecone) that stores the document embeddings and allows efficient nearest neighbor search based on cosine similarity.
 A prompt is designed to expand the query and guide the generative language model (GPT) in generating a relevant answer. The prompt takes the following format: "Given the following context, answer the question that follows using only the information provided in the context. Context: [Retrieved Passages] Question: [Original Query]".
 
+### 2. LLM Function Calling
+Another technique that can be used to guide the model to generate more accurate results is employing language models fine-tuned on function calling tasks. By providing a function, you can force the language model to extract specific information from input and generate responses in a structured way.
+
 
 
 
