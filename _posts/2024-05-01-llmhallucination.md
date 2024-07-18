@@ -30,7 +30,12 @@ The query embedding is then used to retrieve the top-k related documents from th
 A prompt is designed to expand the query and guide the generative language model (GPT) in generating a relevant answer. The prompt takes the following format: "Given the following context, answer the question that follows using only the information provided in the context. Context: [Retrieved Passages] Question: [Original Query]".
 
 ## 2. LLM Function Calling
-Another technique that can be used to guide the model to generate more accurate results is employing language models fine-tuned on function calling tasks. By providing a function, the language model is forced to extract specific information from input and generate responses in a structured way.
+Another technique to guide language models toward generating more accurate results is by employing models fine-tuned on function calling tasks. By integrating specific functions, the language model is directed to extract and utilize precise information from input and generate responses in a structured manner. This approach also enables the model to access more recent or updated information from external sources, such as the web.
+
+For instance, to enhance the accuracy and comprehensiveness of answers to medical questions regarding drugs, the model can utilize the NLM drug database through RESTful requests. By doing so, the GPT model is guided to answer questions using the retrieved data, ensuring that the responses are both up-to-date and highly relevant. This method not only mitigates hallucinations but also significantly improves the reliability and factual correctness of the generated content. An implementation of this framework can be found [here]().
+
+## 3. Lookback Lens
+The Lookback guided decoding technique involves a pre-trained classifier that adds an additional layer of sampling to LLMs to identify and exclude hallucinated tokens from the final selection. This technique is elaborated in this [repo](https://github.com/voidism/Lookback-Lens).
 
 
 
