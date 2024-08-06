@@ -31,3 +31,5 @@ Precision is the ratio of retrieved relevant documents to the total number of do
 which helps capture the context and relationship between the two and increases the likelihood of identifying truly relevant documents. 
 It essentially acts as a classifier on top of an embedding layer that predicts the similarity score.![Screenshot from 2024-08-06 12-46-33](https://github.com/user-attachments/assets/0f1f41d2-d09b-46c1-931c-2ba2a10433ba)
 
+It should be noted that the cross-encoder is a more computationally expensive process, as the model needs to generate embeddings for combinations of each pair of sentences.
+
