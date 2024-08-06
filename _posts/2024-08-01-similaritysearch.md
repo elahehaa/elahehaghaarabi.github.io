@@ -29,4 +29,5 @@ The next step is to improve the precision of the framework. While the bi-encoder
 To increase precision, an additional step is added to the framework to identify relevant documents more accurately.
 Precision is the ratio of retrieved relevant documents to the total number of documents retrieved. A cross-encoder can generate embeddings of the query and document together, 
 which helps capture the context and relationship between the two and increases the likelihood of identifying truly relevant documents. 
-It essentially acts as a classifier on top of an embedding layer that predicts the similarity score.
+It essentially acts as a classifier on top of an embedding layer that predicts the similarity score.![Screenshot from 2024-08-06 12-46-33](https://github.com/user-attachments/assets/0f1f41d2-d09b-46c1-931c-2ba2a10433ba)
+
